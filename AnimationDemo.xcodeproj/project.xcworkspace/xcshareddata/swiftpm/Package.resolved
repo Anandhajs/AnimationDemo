@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "easyconfetti",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onmyway133/EasyConfetti.git",
+      "state" : {
+        "revision" : "fffe1b1969b91c6cde8f93744957cc6c23087275",
+        "version" : "2.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -8,22 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		5A0167302A9758C20035901F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01672F2A9758C20035901F /* AppDelegate.swift */; };
-		5A0167322A9758C20035901F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0167312A9758C20035901F /* SceneDelegate.swift */; };
-		5A0167342A9758C20035901F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0167332A9758C20035901F /* ViewController.swift */; };
 		5A0167372A9758C20035901F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0167352A9758C20035901F /* Main.storyboard */; };
 		5A0167392A9758C90035901F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0167382A9758C90035901F /* Assets.xcassets */; };
 		5A01673C2A9758C90035901F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A01673A2A9758C90035901F /* LaunchScreen.storyboard */; };
+		5A0167452A975B010035901F /* EasyConfetti in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0167442A975B010035901F /* EasyConfetti */; };
+		5A0167472A975D980035901F /* AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0167462A975D980035901F /* AnimateView.swift */; };
+		5A01674A2A975E480035901F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0167492A975E480035901F /* Configuration.swift */; };
+		5A01674C2A975F010035901F /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01674B2A975F010035901F /* Array+Extension.swift */; };
+		5A01674E2A975F950035901F /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01674D2A975F950035901F /* ImageGenerator.swift */; };
+		5A0167502A9789B20035901F /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01674F2A9789B20035901F /* AnimateViewController.swift */; };
+		5AEDAAB72A9791E9003A9089 /* LabelAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDAAB62A9791E9003A9089 /* LabelAnimation.swift */; };
+		5AEDAAB92A9792B9003A9089 /* DWAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDAAB82A9792B9003A9089 /* DWAnimate.swift */; };
+		5AEDAABB2A9792E2003A9089 /* DWHallow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDAABA2A9792E2003A9089 /* DWHallow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A01672C2A9758C20035901F /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A01672F2A9758C20035901F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A0167312A9758C20035901F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A0167332A9758C20035901F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A0167362A9758C20035901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A0167382A9758C90035901F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A01673B2A9758C90035901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A01673D2A9758C90035901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0167462A975D980035901F /* AnimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateView.swift; sourceTree = "<group>"; };
+		5A0167492A975E480035901F /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		5A01674B2A975F010035901F /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		5A01674D2A975F950035901F /* ImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
+		5A01674F2A9789B20035901F /* AnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
+		5AEDAAB62A9791E9003A9089 /* LabelAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAnimation.swift; sourceTree = "<group>"; };
+		5AEDAAB82A9792B9003A9089 /* DWAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWAnimate.swift; sourceTree = "<group>"; };
+		5AEDAABA2A9792E2003A9089 /* DWHallow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWHallow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0167452A975B010035901F /* EasyConfetti in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,37 @@
 		5A01672E2A9758C20035901F /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5A01674F2A9789B20035901F /* AnimateViewController.swift */,
+				5A0167482A975E040035901F /* Helper */,
 				5A01672F2A9758C20035901F /* AppDelegate.swift */,
-				5A0167312A9758C20035901F /* SceneDelegate.swift */,
-				5A0167332A9758C20035901F /* ViewController.swift */,
 				5A0167352A9758C20035901F /* Main.storyboard */,
 				5A0167382A9758C90035901F /* Assets.xcassets */,
 				5A01673A2A9758C90035901F /* LaunchScreen.storyboard */,
 				5A01673D2A9758C90035901F /* Info.plist */,
 			);
 			path = AnimationDemo;
+			sourceTree = "<group>";
+		};
+		5A0167482A975E040035901F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5AEDAAB52A9791C1003A9089 /* AnimateUIView */,
+				5AEDAAB62A9791E9003A9089 /* LabelAnimation.swift */,
+				5AEDAAB82A9792B9003A9089 /* DWAnimate.swift */,
+				5AEDAABA2A9792E2003A9089 /* DWHallow.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5AEDAAB52A9791C1003A9089 /* AnimateUIView */ = {
+			isa = PBXGroup;
+			children = (
+				5A01674B2A975F010035901F /* Array+Extension.swift */,
+				5A01674D2A975F950035901F /* ImageGenerator.swift */,
+				5A0167462A975D980035901F /* AnimateView.swift */,
+				5A0167492A975E480035901F /* Configuration.swift */,
+			);
+			path = AnimateUIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +119,9 @@
 			dependencies = (
 			);
 			name = AnimationDemo;
+			packageProductDependencies = (
+				5A0167442A975B010035901F /* EasyConfetti */,
+			);
 			productName = AnimationDemo;
 			productReference = 5A01672C2A9758C20035901F /* AnimationDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +150,9 @@
 				Base,
 			);
 			mainGroup = 5A0167232A9758C20035901F;
+			packageReferences = (
+				5A0167432A975B010035901F /* XCRemoteSwiftPackageReference "EasyConfetti" */,
+			);
 			productRefGroup = 5A01672D2A9758C20035901F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0167342A9758C20035901F /* ViewController.swift in Sources */,
+				5A01674A2A975E480035901F /* Configuration.swift in Sources */,
 				5A0167302A9758C20035901F /* AppDelegate.swift in Sources */,
-				5A0167322A9758C20035901F /* SceneDelegate.swift in Sources */,
+				5A01674E2A975F950035901F /* ImageGenerator.swift in Sources */,
+				5A0167502A9789B20035901F /* AnimateViewController.swift in Sources */,
+				5AEDAAB92A9792B9003A9089 /* DWAnimate.swift in Sources */,
+				5A01674C2A975F010035901F /* Array+Extension.swift in Sources */,
+				5AEDAAB72A9791E9003A9089 /* LabelAnimation.swift in Sources */,
+				5A0167472A975D980035901F /* AnimateView.swift in Sources */,
+				5AEDAABB2A9792E2003A9089 /* DWHallow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +342,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +370,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +406,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A0167432A975B010035901F /* XCRemoteSwiftPackageReference "EasyConfetti" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onmyway133/EasyConfetti.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A0167442A975B010035901F /* EasyConfetti */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0167432A975B010035901F /* XCRemoteSwiftPackageReference "EasyConfetti" */;
+			productName = EasyConfetti;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A0167242A9758C20035901F /* Project object */;
 }
